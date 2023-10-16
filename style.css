@@ -18,6 +18,10 @@ img {
     border-color:#fff;
 }
 
+#description{
+    color: #fff;
+}
+
 .card img {
     width: 165px; 
     height: 165px;
@@ -62,7 +66,9 @@ nav{
 }
 
 .nav-logo{
-    max-width: 100px;
+    max-width: 400px;
+    margin-left: -110px;
+    margin-bottom: -60px;
 }
 
 .nav-links{
@@ -416,4 +422,38 @@ footer .column > a:hover{
         grid-template-columns: 1fr 150px;   
     }
 }
- 
+
+
+
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #444;
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

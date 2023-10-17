@@ -13,6 +13,38 @@ img {
     display: flex;
 }
 
+.features .card:hover{
+    background-color: #323232;
+    border-color:#fff;
+}
+
+#description{
+    color: #fff;
+}
+
+.card img {
+    width: 165px; 
+    height: 165px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: auto;
+    opacity: 0.5;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+
+
+.card img:hover{
+    transform: scale(1.15);
+    opacity: 1;
+   
+}
+  
+.card a {
+    margin-top: auto; /* Position the <a> element at the bottom of the card */
+}
+
 a{
     text-decoration: none;
 }
@@ -34,7 +66,9 @@ nav{
 }
 
 .nav-logo{
-    max-width: 100px;
+    max-width: 400px;
+    margin-left: -110px;
+    margin-bottom: -60px;
 }
 
 .nav-links{
@@ -169,6 +203,12 @@ section .header{
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
+
+
+    text-align: center; /* Center the inline content (including the image) horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the child elements vertically */
 }
 
 .features card:hover{
@@ -228,8 +268,9 @@ section .header{
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
+   
 }
-
+ 
 .pricing .card:hover{
     background-color: #323232;
     border-color:#fff;
@@ -254,6 +295,12 @@ section .header{
     font-size: 2rem;
     font-weight: 600;
     border-bottom: 2px dashed #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing .card .html-logo{
+    margin-top: 100px;
 }
 
 .pricing .card p{
@@ -267,15 +314,27 @@ section .header{
     margin-right: 0.3rem;
 }
 
+.pricing .card img{
+    width: 100%;
+    height: 100%;
+}
+
+.pricing .card .hability-question{
+    margin-top: 60px;
+}
+
+
 .pricing .card button{
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
+    
 }
 
 .pricing .card button:hover{
     background-color: #1e40ef;
     border-color: #1e40af;
+    
 }
 
  footer{
@@ -382,4 +441,38 @@ footer .column > a:hover{
         grid-template-columns: 1fr 150px;   
     }
 }
- 
+
+
+
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #444;
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

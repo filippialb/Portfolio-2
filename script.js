@@ -1,7 +1,3 @@
-
-
-
-
 function scrollToElement(elementSelector, instance = 0){
     //Select all elements that match the given selector
     const elements = document.querySelectorAll(elementSelector);

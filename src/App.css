@@ -31,7 +31,7 @@ img {
     opacity: 0.5;
     transition: transform 0.5s ease, opacity 0.5s ease;
     border-radius: 5%;
-    cursor: pointer;
+
   }
 
 
@@ -107,6 +107,7 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 100%;
 }
 
 .btn:hover{
@@ -443,10 +444,6 @@ footer .column > a:hover{
 }
 
 
-
-
-
-
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -467,7 +464,7 @@ form {
   input, textarea {
     display: block;
     margin-bottom: 10px;
-    width: calc(100% - 20px);
+    width: calc(100%);
     font-size: 16px;
     color: #ffffff;
     background-color: #444;

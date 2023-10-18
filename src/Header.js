@@ -6,10 +6,10 @@ import './App.css';
 
     return (
         <div>
-            <header class="container">
-                <div class="content">
-                    <span class="blur"></span> 
-                    <span class="blur"></span>
+            <header className="container">
+                <div className="content">
+                    <span className="blur"></span> 
+                    <span className="blur"></span>
                         <h4>CREATE YOUR SITE LIKE A PRO</h4>  
                         <h1>Hi, I'm <span>Filippi</span>, Web Developer</h1> 
                         <p id="description">
@@ -17,10 +17,10 @@ import './App.css';
                             Work with Javascript & React | Transforming Visions into Interactive Digital Solutions |
                             Let's Elevate Your Website to the Next Level!
                         </p>
-                        <button class="btn" id="linkGetInTouch2">Get Stated</button>
+                        <button className="btn" id="linkGetInTouch2">Get Stated</button>
                 </div>
                     
-                <div class="image">
+                <div className="image">
                     <img src="Images/header.png"></img>
                 </div>
             </header>

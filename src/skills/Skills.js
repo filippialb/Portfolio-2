@@ -1,8 +1,9 @@
-import './App.css';
+import './skills.css';
+import htmlLogo from "./images/html-css-logo.png";
+import jsLogo from "./images/javascript-logo.png"
+import reactLogo from "./images/react-logo.png"
 
-
-
-  function Skills() {
+function Skills() {
 
     return (
         <div>
@@ -21,7 +22,7 @@ import './App.css';
                             <h3>HTML/CSS</h3>
                             
                             <p>
-                            <img className="html-logo" src="Images/html-css-logo.png"></img>
+                            <img className="html-logo" src={htmlLogo}></img>
                             </p>
 
                             <p className="hability-question">
@@ -36,7 +37,7 @@ import './App.css';
                         <div className="content">
                             <h3>Javascript</h3>
                             <p>
-                                <img src="Images/javascript-logo.png"></img>
+                                <img src={jsLogo}></img>
                             </p>
 
                             <p>
@@ -51,7 +52,7 @@ import './App.css';
                         <div className="content">
                             <h3>React</h3>
                             <p>
-                                <img src="Images/react-logo.png"></img>
+                                <img src={reactLogo}></img>
                             </p>
 
                             <p>
@@ -69,7 +70,7 @@ import './App.css';
 
         </div>
     );
-  };
+};
 
 
 

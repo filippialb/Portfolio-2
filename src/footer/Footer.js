@@ -1,8 +1,8 @@
-import './App.css';
+import './footer.css';
 
 
 
-  function Footer() {
+function Footer() {
 
     return (
 
@@ -11,11 +11,10 @@ import './App.css';
                 <span className="blur"></span>
                 <span className="blur"></span>  
                 <div className="column">
-              
                     <p>                        
                         "Any fool can write code that a computer can understand. 
                         Good programmers write code that humans can understand."
-                         - Martin Fowler
+                        - Martin Fowler
                     </p>
                     <div className="socials">
                         <a href="#"><i className="ri-youtube-line"></i></a>
@@ -49,7 +48,7 @@ import './App.css';
         </div>
 
     );
-  };
+};
 
 
 

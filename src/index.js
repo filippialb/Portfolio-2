@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Header';
-import Job_done from './Job_done';
-import Skills from './Skills';
-import Get_in_touch from './Get_in_touch';
-import Footer from './Footer';
-import Nav_logo from './Nav_logo';
+import Header from './header/Header';
+import Job_done from './jobDone/Job_done';
+import Skills from './skills/Skills';
+import Get_in_touch from './getInTouch/Get_in_touch';
+import Footer from './footer/Footer';
+import Nav_logo from './navLogo/Nav_logo';
 
 
 

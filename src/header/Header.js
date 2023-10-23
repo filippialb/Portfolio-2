@@ -1,8 +1,8 @@
-import './App.css';
+import './header.css';
+import headerImage from "./header.png"
 
 
-
-  function Header() {
+function Header() {
 
     return (
         <div>
@@ -21,12 +21,12 @@ import './App.css';
                 </div>
                     
                 <div className="image">
-                    <img src="Images/header.png"></img>
+                    <img src={headerImage} />
                 </div>
             </header>
         </div>
     );
-  };
+};
 
 
 

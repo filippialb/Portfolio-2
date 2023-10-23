@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
-import './App.css';
+import './navLogo.css';
+import logoFA from "./images/logoFA.png"
+//import hireMe from "../hireMe/index.html"
 
 
 function scrollToElement(elementSelector, instance = 0){
@@ -13,7 +15,7 @@ function scrollToElement(elementSelector, instance = 0){
 }
 
 
-  function Nav_logo() {
+function Nav_logo() {
 
     useEffect(() => {
 
@@ -54,7 +56,7 @@ function scrollToElement(elementSelector, instance = 0){
             <nav>
                 <div className="nav-logo">
                     <a href="https://github.com/filippialb" target="_blank">
-                        <img src="Images/logoFA.png"></img>
+                        <img src={logoFA}></img>
                     </a>
                 </div>
                 
@@ -66,7 +68,7 @@ function scrollToElement(elementSelector, instance = 0){
                     <li id="linkAbout"className="link"><a href="#">About</a></li>
                 </ul>
             
-                <a href="hire-me-landing-page/index.html" target="_blank"><button className="btn">Hire Me</button></a>
+                <a href="#" target="_blank"><button className="btn">Hire Me</button></a>
             
             </nav>
 
@@ -75,6 +77,6 @@ function scrollToElement(elementSelector, instance = 0){
 
 
     
-  };
+};
 
-  export default Nav_logo;
+export default Nav_logo;

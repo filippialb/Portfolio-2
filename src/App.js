@@ -2,19 +2,13 @@ import './App.css';
 
 
 
-  function Hire() {
-    const openNewTab = () => {
-      window.open(process.env.PUBLIC_URL + 'hire-me-landing-page/index.html', '_blank');
-    };
-
+  function App() {
     return (
-      <div>
-        <button onClick={openNewTab}>Open New Tab</button>
-      </div>
+    true
     );
   };
 
 
 
 
-export default Hire;
+export default App;

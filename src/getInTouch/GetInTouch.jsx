@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com'; // Import emailjs-com library
 
 
-function Get_in_touch() {
+export const GetInTouch = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -70,5 +70,3 @@ function Get_in_touch() {
     </div>
   );
 }
-
-export default Get_in_touch;

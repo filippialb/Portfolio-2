@@ -1,10 +1,11 @@
+import React from "react";
 import { useEffect } from 'react';
 import './navLogo.css';
 import logoFA from "./images/logoFA.png"
 //import hireMe from "../hireMe/index.html"
 
 
-function scrollToElement(elementSelector, instance = 0){
+const scrollToElement = (elementSelector, instance = 0) => {
     //Select all elements that match the given selector
     const elements = document.querySelectorAll(elementSelector);
     //Check if there are elements matching the selector and if the requestedinstance exist
@@ -15,7 +16,7 @@ function scrollToElement(elementSelector, instance = 0){
 }
 
 
-function Nav_logo() {
+export const NavLogo = () => {
 
     useEffect(() => {
 
@@ -71,12 +72,6 @@ function Nav_logo() {
                 <a href="#" target="_blank"><button className="btn">Hire Me</button></a>
             
             </nav>
-
         </div>
     );
-
-
-    
 };
-
-export default Nav_logo;

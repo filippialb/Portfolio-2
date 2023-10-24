@@ -1,15 +1,14 @@
+import React from "react";
 import './skills.css';
 import htmlLogo from "./images/html-css-logo.png";
 import jsLogo from "./images/javascript-logo.png"
 import reactLogo from "./images/react-logo.png"
 
-function Skills() {
+export const Skills = () => {
 
     return (
         <div>
-
-<div>
-            
+        <div>
             <section className="container">
                 <h2 className="header">SKILLS</h2>
                 <p className="sub-header">
@@ -65,14 +64,8 @@ function Skills() {
                 </div>
                 
             </section>
-
         </div>
-
         </div>
     );
 };
 
-
-
-
-export default Skills;

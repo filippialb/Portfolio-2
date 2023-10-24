@@ -1,11 +1,11 @@
+import React from "react";
 import './footer.css';
 
 
 
-function Footer() {
+export const Footer = () => {
 
     return (
-
         <div>
             <footer className="container">
                 <span className="blur"></span>
@@ -17,9 +17,9 @@ function Footer() {
                         - Martin Fowler
                     </p>
                     <div className="socials">
-                        <a href="#"><i className="ri-youtube-line"></i></a>
-                        <a href="#"><i className="ri-instagram-line"></i></a>
-                        <a href="#"><i className="ri-twitter-line"></i></a>
+                        <a href="https://www.youtube.com/"><i className="ri-youtube-line"></i></a>
+                        <a href="https://www.instagram.com/"><i className="ri-instagram-line"></i></a>
+                        <a href="https://twitter.com/"><i className="ri-twitter-line"></i></a>
                     </div>
                 </div>
 
@@ -49,8 +49,3 @@ function Footer() {
 
     );
 };
-
-
-
-
-export default Footer;

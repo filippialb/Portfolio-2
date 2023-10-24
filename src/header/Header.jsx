@@ -1,8 +1,10 @@
+import React from "react";
 import './header.css';
 import headerImage from "./header.png"
 
 
-function Header() {
+
+export const Header = () => {
 
     return (
         <div>
@@ -27,8 +29,3 @@ function Header() {
         </div>
     );
 };
-
-
-
-
-export default Header;

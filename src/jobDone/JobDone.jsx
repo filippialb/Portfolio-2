@@ -1,3 +1,4 @@
+import React from "react";
 import './jobDone.css';
 import randomQuoteMachine from "./images/random-quote-image.png"
 import markdown from "./images/markdown.png"
@@ -7,12 +8,10 @@ import todoList from "./images/todolist.png"
 import quizPage from "./images/quiz-page.png"
 import technicalDocumentation from "./images/technical-documentation.png"
 
-function Job_done() {
+export const JobDone = () => {
 
     return (
-
         <div>
-
             <section className="container">
                 <h2 className="header">JOB DONE</h2>
                 <div className="features">
@@ -80,15 +79,8 @@ function Job_done() {
                         </a>
                         <a href="#">Take a look <i className="ri-arrow-right-line"></i></a>
                     </div>
-
-
                 </div>
             </section>
         </div>
     );
 };
-
-
-
-
-export default Job_done;

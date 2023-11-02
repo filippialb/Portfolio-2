@@ -69,7 +69,7 @@ export const NavLogo = () => {
                     <li id="linkAbout"className="link"><a href="#">About</a></li>
                 </ul>
             
-                <a href="#" target="_blank"><button className="btn">Hire Me</button></a>
+                <a href="https://filippialb.github.io/HireMe/" target="_blank"><button className="btn">Hire Me</button></a>
             
             </nav>
         </div>

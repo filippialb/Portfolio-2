@@ -14,15 +14,21 @@ function scrollToElement(elementSelector, instance = 0){
 
 
 const linkJobDone = document.getElementById("linkJobDone");
+const linkJobDone2 = document.getElementById("linkJobDone2");
 const linkPricing = document.getElementById("linkPricing");
 const linkAbout = document.getElementById("linkAbout");
 const linkGetInTouch = document.getElementById("linkGetInTouch");
-const linkGetInTouch2 = document.getElementById("linkGetInTouch2");
+
+
+
 
 linkJobDone.addEventListener('click', () => {
      scrollToElement('.header');
 });
 
+linkJobDone2.addEventListener('click', () => {
+  scrollToElement('.header');
+});
 
 linkPricing.addEventListener('click', () => {
     //scrool to the second element with "header" class 
@@ -34,10 +40,6 @@ linkAbout.addEventListener('click', () => {
 });
 
 linkGetInTouch.addEventListener('click', () => {
-  scrollToElement('.header', 2);
-});
-
-linkGetInTouch2.addEventListener('click', () => {
   scrollToElement('.header', 2);
 });
 

@@ -26,6 +26,7 @@ export const NavLogo = () => {
     useEffect(() => {
 
         const linkJobDone = document.getElementById("linkJobDone");
+        const linkJobDone2 = document.getElementById("linkJobDone2");
         const linkSkils = document.getElementById("linkSkils");
         const linkAbout = document.getElementById("linkAbout");
         const linkGetInTouch = document.getElementById("linkGetInTouch");
@@ -33,6 +34,10 @@ export const NavLogo = () => {
 
                 
         linkJobDone.addEventListener('click', () => {
+            scrollToElement('.header');
+        });
+
+        linkJobDone2.addEventListener('click', () => {
             scrollToElement('.header');
         });
 
@@ -46,10 +51,6 @@ export const NavLogo = () => {
         });
 
         linkGetInTouch.addEventListener('click', () => {
-        scrollToElement('.header', 2);
-        });
-
-        linkGetInTouch2.addEventListener('click', () => {
         scrollToElement('.header', 2);
         });
 

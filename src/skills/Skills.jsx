@@ -29,7 +29,7 @@ export const Skills = () => {
                                 Do you have a project that uses this technology?
                             </p>
                         </div>
-                        <a href="hire-me-landing-page/index.html" target="_blank"><button className="btn">Send a message</button></a>
+                        <a href="https://filippialb.github.io/HireMe/" target="_blank"><button className="btn">Send a message</button></a>
                     </div>
 
                     <div className="card">
@@ -44,7 +44,7 @@ export const Skills = () => {
                                 Do you have a project that uses this technology?
                             </p>
                         </div>
-                        <a href="hire-me-landing-page/index.html" target="_blank"><button className="btn">Send a message</button></a>
+                        <a href="https://filippialb.github.io/HireMe/" target="_blank"><button className="btn">Send a message</button></a>
                     </div>
 
                     <div className="card">
@@ -59,7 +59,7 @@ export const Skills = () => {
                                 Do you have a project that uses this technology?
                             </p>
                         </div>
-                        <a href="hire-me-landing-page/index.html" target="_blank"><button className="btn">Send a message</button></a>
+                        <a href="https://filippialb.github.io/HireMe/" target="_blank"><button className="btn">Send a message</button></a>
                     </div>
                 </div>
                 

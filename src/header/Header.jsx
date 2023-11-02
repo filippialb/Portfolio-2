@@ -19,7 +19,7 @@ export const Header = () => {
                             Work with Javascript & React | Transforming Visions into Interactive Digital Solutions |
                             Let's Elevate Your Website to the Next Level!
                         </p>
-                        <button className="btn" id="linkGetInTouch2">Get Stated</button>
+                        <button className="btn" id="linkJobDone2">Get Stated</button>
                 </div>
                     
                 <div className="image">

@@ -17,9 +17,9 @@ export const Footer = () => {
                         - Martin Fowler
                     </p>
                     <div className="socials">
-                        <a href="https://www.youtube.com/"><i className="ri-youtube-line"></i></a>
-                        <a href="https://www.instagram.com/"><i className="ri-instagram-line"></i></a>
-                        <a href="https://twitter.com/"><i className="ri-twitter-line"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i className="ri-youtube-line"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i className="ri-instagram-line"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i className="ri-twitter-line"></i></a>
                     </div>
                 </div>
 

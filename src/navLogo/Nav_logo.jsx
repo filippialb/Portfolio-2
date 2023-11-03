@@ -1,8 +1,8 @@
 import React from "react";
 import { useEffect } from 'react';
-import './navLogo.css';
 import logoFA from "./images/logoFA.png"
 //import hireMe from "../hireMe/index.html"
+import navOpen from "./navigation.js"
 
 
 const scrollToElement = (elementSelector, instance = 0) => {
@@ -14,6 +14,15 @@ const scrollToElement = (elementSelector, instance = 0) => {
         elements[instance].scrollIntoView({ behavior: 'smooth' });
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 export const NavLogo = () => {
@@ -52,6 +61,16 @@ export const NavLogo = () => {
     }, []);
 
 
+
+
+
+
+
+
+
+
+
+
     return (
         <div>
             <nav>
@@ -60,16 +79,18 @@ export const NavLogo = () => {
                         <img src={logoFA}></img>
                     </a>
                 </div>
-                
-                <ul className="nav-links">
-                    <li className="link"><a href="#">Home</a></li>  
+                <button className="mobile-nav-toggle" aria-controls="primary-navigation"><span className="sr-only" aria-expanded="false">Menu</span></button>
+                <ul className="nav-links primary-navigation">   
+                    <li className="link active"><a href="#">Home</a></li>  
                     <li id="linkJobDone" className="link"><a href="#">Job Done</a></li>
                     <li id="linkSkils" className="link"><a href="#">Skills</a></li>
                     <li id="linkGetInTouch" className="link"><a href="#">Get In Touch</a></li>
                     <li id="linkAbout"className="link"><a href="#">About</a></li>
                 </ul>
             
+                {/*
                 <a href="https://filippialb.github.io/HireMe/" target="_blank"><button className="btn">Hire Me</button></a>
+                */}
             
             </nav>
         </div>

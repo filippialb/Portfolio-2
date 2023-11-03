@@ -1,5 +1,4 @@
 import React from "react";
-import './jobDone.css';
 import randomQuoteMachine from "./images/random-quote-image.png"
 import markdown from "./images/markdown.png"
 import registrationForm from "./images/registration-form.png"

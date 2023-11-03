@@ -1,5 +1,4 @@
 import React from "react";
-import './skills.css';
 import htmlLogo from "./images/html-css-logo.png";
 import jsLogo from "./images/javascript-logo.png"
 import reactLogo from "./images/react-logo.png"

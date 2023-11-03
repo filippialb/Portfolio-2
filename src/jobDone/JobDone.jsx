@@ -7,6 +7,8 @@ import landingPage from "./images/landing-page.png"
 import todoList from "./images/todolist.png"
 import quizPage from "./images/quiz-page.png"
 import technicalDocumentation from "./images/technical-documentation.png"
+import fordWebSite from "./images/fordWebsite.png"
+
 
 export const JobDone = () => {
 
@@ -73,9 +75,9 @@ export const JobDone = () => {
                     </div>
 
                     <div className="card">
-                        <h4>Registration Form</h4>
+                        <h4>Ford Website Clone (WIP)</h4>
                         <a href="http://www.google.com" target="_blank">
-                            <img src={registrationForm}></img>
+                            <img src={fordWebSite}></img>
                         </a>
                         <a href="#">Take a look <i className="ri-arrow-right-line"></i></a>
                     </div>

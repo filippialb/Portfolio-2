@@ -1,14 +1,22 @@
-const nav = document.querySelector(".primary-navigation");
-const navToggle = document.querySelector(".mobile-nav-toggle");
+const Navigation = () => {
+    const handleNavToggle = () => {
+        const nav = document.querySelector('.primary-navigation');
+        const navToggle = document.querySelector('.mobile-nav-toggle');
+        const isVisible = nav.getAttribute('data-visible') === 'true';
 
-navToggle.addEventListener("click", () => {
-    
-    const visiblity = nav.getAttribute("data-visible");
-    if (visiblity === "false") {
-        nav.setAttribute("data-visible", true);
-        navToggle.setAttribute("aria-expanded", true);
-    } else {
-        nav.setAttribute("data-visible", false);
-        navToggle.setAttribute("aria-expanded", false);
-    }
-})
+        nav.setAttribute('data-visible', !isVisible);
+        navToggle.setAttribute('aria-expanded', !isVisible);
+    };
+
+    return (
+        <div>
+            <button className="mobile-nav-toggle" aria-controls="primary-navigation">
+                <span className="sr-only" aria-expanded="false">
+                    Menu
+                </span>
+            </button>
+        </div>
+    );
+};
+
+export default Navigation;

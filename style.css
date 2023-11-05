@@ -159,30 +159,73 @@ nav{
     .nav-logo{
         display: none;
     }
-
+    
     .nav-links{
         position:absolute;
-
+        
         margin-right: 20px;
-        border: 1px solid white;
         float: right;
         right: -1vh;
     }
     header .image::before{
         display: none;
     }
+    .image-div {
+        display: none;
+    }
     
 }
 
 
-@media (max-width: 700px) {
+
+@media (max-width: 41rem) {
+    
+    header {
+        display:flex;
+        grid-template-columns: 0;
+    }
+    
     header .image{
         display: none;
     }
-}
+    
+    header .container{
+        
+        margin: auto;
+        width: 80%;
+        min-width: 300px;
+        border: 1px solid yellow;
+        text-align: justify;
+    }
+    
+    header .content {
+        display: inline-block;
+        position:relative;
 
+        max-width: 90vh;
+        min-width: 40vh;
+        padding-top: 00px;
+        
+        
+    }
+    
+    header .image{
+        width: 0;
+    }
+    
+    header .content h4{
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .btn-started {
+        margin: 2rem auto -3rem auto;
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
 
-@media (max-width: 35rem) {
     .primary-navigation {
         --underline-gap: .5rem;
         position: fixed;
@@ -234,7 +277,13 @@ nav{
         width: 100%;
     }
 
+    .header-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
+
 
 
 
@@ -262,15 +311,56 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    width: 100%;
+    width: 200px;
+    margin-top: 2rem;
+  
 }
 
 .btn:hover{
     background-color: #1e40af;
 }
 
+.btn-started{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    margin-top: 2rem;
+}
+
+.btn-started:hover{
+    background-color: #1e40af;
+}
+
+.btn-git{ /*button get in touch */
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    margin-top: 2rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-git:hover{
+    background-color: #1e40af;
+}
+
+
 .container{
     max-width: 1200px;
+    min-width: 300px;
     margin: auto;
     padding: 5rem 2rem;
 }
@@ -284,11 +374,17 @@ nav{
 header{
     position: relative;
     padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+
     align-items: center;
     gap: 2rem;
 }
+
+.header-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
@@ -312,6 +408,7 @@ header .content h1 span{
 header.content p{
     margin-bottom: 2rem;
     columns: #ccc;
+    
 }
 
 header .image{
@@ -484,6 +581,14 @@ section .header{
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
     
 }
 
@@ -496,8 +601,15 @@ section .header{
  footer{
     position: relative;
     display: grid;
-    grid-template-columns: 400px repeat(3, 1fr);
+    grid-template-columns: 400px repeat(1, 1fr);
     gap: 2rem;
+ }
+ 
+ footer .align-rigth {
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+
  }
 
  footer .column .logo{
@@ -561,14 +673,7 @@ footer .column > a:hover{
 
 @media (width < 900px) {
 
-    .header{
-        grid-template-columns: repeat(1,1fr);
-    }
-    /*
-    header .image{
-        grid-area: 1/1/2/2;
-    }
-    */
+
     .features{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -596,6 +701,25 @@ footer .column > a:hover{
     footer{
         grid-template-columns: 1fr 150px;   
     }
+
+    .column p {
+        font-size: xx-small;
+    }
+
+    .column h4 {
+        font-size: xx-small;
+    }
+
+
+    .column a {
+        font-size: xx-small;
+    }
+
+    footer {
+        
+        padding-bottom: 50px;
+        margin: 200px;
+    }
 }
 
 
@@ -605,6 +729,7 @@ form {
     padding: 20px;
     background-color: #333;
     border-radius: 10px;
+    margin-top: 60px;
   }
   
   label {
